@@ -1,0 +1,16 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ .mehandi {
+    background-image: url(../img/m123img.jpg);
+    margin: 0 auto;
+ }
+
+ .mehandi h2 {
+    font-size: 10px;
+    font-family: "Roboto", serif;
+
+ }

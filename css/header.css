@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 1rem;
+    width: 100%;
+    z-index: 9999;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-left img {
+    width: 100%;
+    height: 40px;
+}
+
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+}
+
+
+.header-right ul {
+    list-style-type: none;
+}
+
+.header-right ul li {
+    display: inline;
+}
+
+.header-right ul li a {
+    text-decoration: none;
+    padding: 20px 20px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+#hero {
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #15202a;
+}
+
+.hero-data {
+    padding-top: 15%;
+    position: absolute;
+    z-index: 999;
+}
+
+
+.hero-data h2 {
+    font-size: 50px;
+    color: white;
+}
+
+.hero-data h3 {
+    color: blue;
+    font-size: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.hero-data p {
+    max-width: 40%;
+    line-height: 20px;
+    color: white;
+}
+
+
+.hero-data form {
+    font-size: 20px;
+    margin-top: 10px;
+    max-width: 30%;
+}
+
+.hero-data  input {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin: 10px;
+}
+
+.btn {
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+.gra-ty {
+    margin-top: 10px;
+}
+
+
+.imgs {
+    height: 40vh;
+    width: 40%;
+    background-image: url(../img/personimg.png);
+    background-position: center center;
+    background-size: cover;
+    position:absolute;
+    right: 0;
+    top: 40px;
+}
+
+.as {
+    height: 500px;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 70px;
+    
+    }
+    
+    .as p {
+        text-align: center;
+        padding: 100px 20px 44px 20px;
+        font-family: "Dancing Script", cursive;
+        font-weight: bold;
+        font-size: 32px;
+        color: white;
+        
+    }
+    
+ul {
+    list-style-type: none;
+}
+
+
+padding: 10px 0px 0px 50px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    img {
+        height: 200px;
+        width: 40%;
+        padding-left: 50px;
+        padding-right: 12px;
+        
+    }
+
+    .abc {
+        display: flex;
+    }
+
+    .con {
+        font-size: 15px;
+    }
